@@ -22,7 +22,8 @@ module NearestTimeZone
     end
 
     it "the class should have a kdtree method" do
-      City.kdtree.should be_a_kind_of Geokdtree:Tree
+      puts City.kdtree
+      City.kdtree.should be_a_kind_of Geokdtree::Tree
     end
 
     it "should expose all the cities as a hash with the id as the key" do
