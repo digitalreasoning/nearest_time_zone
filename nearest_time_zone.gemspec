@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'nearest_time_zone/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "nearest_time_zone"
+  spec.name          = "nearest_time_zone_jruby"
   spec.version       = NearestTimeZone::VERSION
-  spec.authors       = ["Sean Devine"]
-  spec.email         = ["seandevine@gopartage.com"]
+  spec.authors       = ["Sean Devine", "Benjamen Brescka", "Chason Choate"]
+  spec.email         = ["benjamen.brescka@digitalreasoning.com", "chason.choate@digitalreasoning.com"]
   spec.description   = %q{Quickly find the name of a time zone for a latitude and longitude without relying on a web service.}
   spec.summary       = %q{Quickly find the name of a time zone for a latitude and longitude without relying on a web service.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/digitalreasoning/nearest_time_zone"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
