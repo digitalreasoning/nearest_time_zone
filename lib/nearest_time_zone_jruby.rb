@@ -3,7 +3,7 @@ require "geokdtree"
 require "andand"
 
 require "require_all"
-require_rel "./nearest_time_zone"
+require_rel "./nearest_time_zone_jruby"
 
 module NearestTimeZone
 
