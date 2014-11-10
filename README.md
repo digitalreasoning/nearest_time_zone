@@ -15,17 +15,13 @@ The city data is based on the GeoNames [cities1000.zip](http://download.geonames
 
 ### Kdtree
 
-The [Kdtree](https://github.com/gurgeous/kdtree) gem is used to make the search so fast.
-
-### Load Time
-
-The kdtree and the cities are loaded into memory when the gem is loaded. If you'd like to make that faster, run `rake nearest_time_zone:dump` and the load time should drop significantly. The cities, time zones and kdtree will all be persisted to the file system when run that rake task.
+The [Geokdtree](https://github.com/colinsurprenant/geokdtree) gem is used to make the search so fast.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'nearest_time_zone'
+    gem 'nearest_time_zone_jruby'
 
 And then execute:
 
@@ -33,7 +29,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install nearest_time_zone
+    $ gem install nearest_time_zone_jruby
 
 ## Contributing
 
